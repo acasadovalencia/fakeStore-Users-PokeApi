@@ -102,7 +102,7 @@ const PokeAbilities = (props)=>{
          .finally(() => controller.abort())
     }
 
-    return(
+    return( 
         <>
         <span onClick={()=> showHability(ability.name)} className='Poke-span Poke-span--ability'>{ability.name}</span>
         </>
