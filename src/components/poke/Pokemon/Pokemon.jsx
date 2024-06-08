@@ -85,7 +85,7 @@ const PokeAbilities = (props)=>{
 
     const {abilitySelected , setAbilitySelected , setShowAbility } = useContext(PokemonContext)
 
-    const showHability = async (abilityName)=>{
+    const showHability = (abilityName)=>{
     
         setAbilitySelected(abilityName)
 
@@ -95,7 +95,7 @@ const PokeAbilities = (props)=>{
              signal: controller.signal
          }
 
-        await fetch(`${VITE_ABILITY}${abilityName}`, options)
+         fetch(`${VITE_ABILITY}${abilityName}`, options)
          .then(res => res.json())
          .then(data => setShowAbility(data))
          .catch(err => console.log(err))
