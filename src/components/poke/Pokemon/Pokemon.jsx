@@ -100,6 +100,8 @@ const PokeAbilities = (props)=>{
          .then(data => setShowAbility(data))
          .catch(err => console.log(err))
          .finally(() => controller.abort())
+        
+         abilityName = ''
     }
 
     return( 
