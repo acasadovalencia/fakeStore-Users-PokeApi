@@ -104,7 +104,7 @@ const PokeAbilities = (props)=>{
 
     return( 
         <>
-        <span onClick={()=> showHability(ability.name)} className='Poke-span Poke-span--ability'>{ability.name}</span>
+        <span onClick={ ()=> showHability(ability.name) } className='Poke-span Poke-span--ability'>{ability.name}</span>
         </>
     )
 }
