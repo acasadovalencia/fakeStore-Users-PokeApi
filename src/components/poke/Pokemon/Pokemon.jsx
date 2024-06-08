@@ -95,7 +95,7 @@ const PokeAbilities = (props)=>{
              signal: controller.signal
          }
 
-        await fetch(`${VITE_ABILITY}${abilityName}`, options)
+        await fetch(`https://pokeapi.co/api/v2/ability/${abilityName}`, options)
          .then(res => res.json())
          .then(data => setShowAbility(data))
          .catch(err => console.log(err))
