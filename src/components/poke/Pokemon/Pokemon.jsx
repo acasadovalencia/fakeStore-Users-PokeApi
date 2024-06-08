@@ -101,7 +101,6 @@ const PokeAbilities = (props)=>{
          .catch(err => console.log(err))
          .finally(() => controller.abort())
         
-         abilityName = ''
     }
 
     return( 
