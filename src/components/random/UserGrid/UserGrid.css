@@ -1,0 +1,17 @@
+.Users-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(80px , 1fr));
+    gap: 1rem;
+    padding: 2rem;
+    width: 100%;
+}
+.Users-picture{
+    transition: transform 1s ease;
+    cursor: pointer;
+}
+.Users-img{
+    border-radius: 1rem;  
+}
+.Users-picture:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,34 @@
+.Header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 2rem;
+    background-color: #000;
+}
+.Header-btn{
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    color: #000;
+    font-weight: 600;
+}
+.Header-btn--random{
+    background-color: #83BA43;
+}
+.Header-btn--random:hover{
+    background-color: #96bc6b;
+}
+.Header-btn--fake{
+    background-color: #802C6E;
+}
+.Header-btn--fake:hover{
+    background-color: #934b84;
+}
+.Header-btn--poke{
+    background-color: #EA524F;
+}
+.Header-btn--poke:hover{
+    background-color: #e47674;
+}

@@ -1,0 +1,47 @@
+.Products-li{
+    border-radius: .5rem;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: transform .5s ease;
+    display: none;
+}
+.Products-li.isActive{
+    display: block;
+}
+
+.Products-li:hover{
+    transform: scale(1.05);
+}
+.Products-picture{
+    border-radius: .5rem;
+}
+.Products-img{
+    border-radius: .5rem;
+    object-fit: scale-down;
+    width: 100%;
+    height: 12.5rem;
+    padding: 1rem;
+    
+}
+.Products-wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+.Rating-wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .5rem;
+}
+.Rating-svg{
+    color: #ffd700;
+}
+.Price{
+    color: #000;
+    font-size: 1rem;
+}

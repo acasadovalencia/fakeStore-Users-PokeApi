@@ -1,0 +1,125 @@
+.Poke-li{
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 1rem;
+    position: relative;
+    padding: .5rem .5rem 3.5rem;
+}
+.Poke-picture{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.Poke-img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+}
+.Poke-wrapper{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: .5rem;
+}
+.Poke-name{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.Poke-h2{
+    color: #000;
+    text-transform: uppercase;
+}
+.Poke-span{
+    background-color: #bfbfbf;
+    color: #000;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+}
+.Poke-type{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.Poke-span--type{
+    text-transform: capitalize;
+}
+.normal , .flying{
+    background-color: #f5f5dc; 
+}
+.fighting , .fire{
+    background-color: #ff0000; 
+}
+.poison , .psychic{
+    background-color: #800080;
+}
+.ground{
+    background-color: #865B17;
+}
+.rock , .steel{
+    background-color: #bfbfbf;
+}
+.bug , .electric{
+    background-color: #ffd700;
+}
+.ghost , .dark , .unknown{
+    background: #000;
+    color: #fff
+}
+.water , .ice{
+    background-color: #0000ff;
+}
+.grass{
+    background-color: #008000;
+}
+.fairy , .stellar{
+    background-color: #ffc0cb
+}
+.Poke-h3{
+    color: #000;
+    font-weight: 600;
+    align-self: flex-start;
+}
+.Poke-abilities{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.Poke-span--ability{
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+.Poke-span--ability:hover{
+    background-color: #878787;
+}
+.Poke-description{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.Poke-hp{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: .5rem;
+    right: .5rem;
+}
+.Poke-span--hp{
+    background-color: #ffc0cb;
+}
+

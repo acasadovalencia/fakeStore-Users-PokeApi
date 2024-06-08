@@ -1,0 +1,41 @@
+.Ability-wrapper{
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.Ability-card{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: .5rem;
+    position: relative;
+    max-width: 37.5rem;
+}
+.Poke-paragraph{
+    color: #000;
+    text-align: left;
+}
+.Poke-h2--ability{
+    text-align: left;
+    text-transform: capitalize;
+}
+.Ability-close{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    transition: color .5s ease;
+}
+.Ability-close:hover{
+    color: #EA524F;
+}

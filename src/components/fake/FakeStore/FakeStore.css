@@ -1,0 +1,38 @@
+.Products-h2{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 600;
+}
+.Category-wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+.Category-span{
+    color: #fff
+}
+.Category-btn{
+    background-color: #802C6E;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.Category-btn:hover{
+    background-color: #934b84;
+}
+.Products-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(200px , 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+.Products-li--fail{
+    color: #fff;
+    text-align: center;
+}
